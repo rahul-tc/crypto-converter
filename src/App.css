@@ -1,0 +1,48 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f7931a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crypto-card {
+  min-width: 450px;
+  z-index: 10;
+}
+
+.flex-justify-sb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.select {
+  width: 150px;
+}
+
+.result-span {
+  color: crimson;
+  font-size: 1.25rem;
+  text-shadow: 1px 1px cyan;
+  font-weight: 700;
+}
+
+.resultPara {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #4d4d4d;
+  text-shadow: 1px -1px orange;
+  font-weight: 500;
+}
+@media screen and (max-width: 450px) {
+  .crypto-card {
+    min-width: 300px;
+  }
+  .select {
+    width: 120px;
+  }
+  .resultPara {
+    font-size: 0.9rem;
+  }
+}
